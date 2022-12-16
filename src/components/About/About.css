@@ -1,0 +1,27 @@
+@media(min-width : 768px){
+    .about{
+        grid-template-areas: 
+            "egg egg-content"
+            "cup-content cup"
+            "graphic photography"
+        ;
+    }
+    .egg{
+        grid-area: egg;
+    }
+    .egg-content{
+        grid-area: egg-content;
+    }
+    .cup-content{
+        grid-area: cup-content;
+    }
+    .cup{
+        grid-area: cup;
+    }
+    .graphic{
+        grid-area: graphic;
+    }
+    .photography{
+        grid-area: photography;
+    }
+}
